@@ -3,9 +3,9 @@
 # Spend some time changing the variables and running the file to see how the story changes.
 
 
-door_choice = 1
+door_choice = 2
 bear_clothing = ""
-bear_choice = 1
+bear_choice = 2
 
 puts "You enter a dark room with two doors. Do you go through #1 or #2?"
 
@@ -37,9 +37,31 @@ end
 
 # Questions
 # 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+
+# An if statment containing an else statement.  The if checking if the variable door_choice is equal to 1.  The else statement is will run if
+# door choice is anything but equal to 1
+
 # 2. What variable has a new value assigned to it after the first if statement executes?
+
+# bear_clothing
+
 # 3. If you changed the variable door_choice to equal 3, what would the bear_clothing value be?
+
+# Scarf
+
 # 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+
+# An if statement with elsif and else statements within.  The first if statment checking if the vaiable bear_choice is equal to 1.  The two
+# elsif statments print outputs for choices 2 and 3, while the last else statement is an outcome given any choice not 1,2, or 3.
+
 # 5. If you changed the variable bear_choice to equal 3, what will be the final outcome be?
+
+# A room full of snakes
+
 # 6. If you changed the variable door_choice to equal 1, and the variable bear_choice to equal 2, what will be the final outcome be?
+
+#  You'll tell the bear that their hat they're wearing is too small and they'll cry because you're a terrible person
+
 # 7. What is your favorite ending?
+
+# Definitely offering the bear your own piece of clothing.  A true adventurer's choice.
